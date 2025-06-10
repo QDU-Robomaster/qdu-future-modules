@@ -1,0 +1,43 @@
+name: Deploy XRobot Module Index
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout 源代码
+        uses: actions/checkout@v3
+
+      - name: 🗂️ 准备发布目录
+        run: |
+          mkdir -p output
+          cp index.yaml output/index.yaml
+          # 如有签名文件也一并发布
+          [ -f index.yaml.sig ] && cp index.yaml.sig output/
+
+      - name: 🔧 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 📤 上传模块索引到 GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+      - name: 🚀 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,4 @@
+mirror_of: xrobot-org
+
+modules:
+  - https://github.com/xrobot-org/BlinkLED.git
