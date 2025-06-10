@@ -1,43 +1,51 @@
-name: Deploy XRobot Module Index
+# .github/workflows/deploy.yml
+
+name: 🚀 Deploy index.yaml to GitHub Pages
 
 on:
   push:
-    branches: [main, master]
-  pull_request:
+    branches:
+      - master
+      - main  # 兼容 main 分支用户
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout 源代码
+      - name: 📥 Checkout repository
         uses: actions/checkout@v3
 
-      - name: 🗂️ 准备发布目录
-        run: |
-          mkdir -p output
-          cp index.yaml output/index.yaml
-          # 如有签名文件也一并发布
-          [ -f index.yaml.sig ] && cp index.yaml.sig output/
-
-      - name: 🔧 配置 GitHub Pages
+      - name: 🔧 Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: 📤 上传模块索引到 GitHub Pages
+      - name: 📄 准备发布目录
+        run: |
+          mkdir -p output
+          if [ -f index.yaml ]; then
+            cp index.yaml output/index.yaml
+          else
+            echo "❌ 找不到 index.yaml" >&2
+            exit 1
+          fi
+          # 如有签名文件也一并发布
+          if [ -f index.yaml.sig ]; then
+            cp index.yaml.sig output/
+          fi
+
+      - name: 🧾 列出发布目录内容
+        run: ls -al output
+
+      - name: 📦 上传页面 Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: output
 
-      - name: 🚀 部署到 GitHub Pages
-        id: deployment
+      - name: 🚀 发布到 GitHub Pages
         uses: actions/deploy-pages@v4
