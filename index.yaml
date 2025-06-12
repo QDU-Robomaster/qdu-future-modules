@@ -2,6 +2,7 @@ namespace: xrobot-org
 modules:
   - https://github.com/xrobot-org/BlinkLED.git
   - https://github.com/xrobot-org/BMI088.git
+  - https://github.com/xrobot-org/ICM42688.git
   - https://github.com/xrobot-org/MadgwickAHRS
   - https://github.com/xrobot-org/IST8310.git
   - https://github.com/xrobot-org/BuzzerAlarm.git
