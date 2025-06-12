@@ -6,3 +6,7 @@ modules:
   - https://github.com/xrobot-org/IST8310.git
   - https://github.com/xrobot-org/BuzzerAlarm.git
   - https://github.com/xrobot-org/TestModule.git
+  - https://github.com/xrobot-org/CanfdIMU.git
+  - https://github.com/xrobot-org/CanIMU.git
+  - https://github.com/xrobot-org/SharedTopicClient.git
+  - https://github.com/xrobot-org/SharedTopic.git
