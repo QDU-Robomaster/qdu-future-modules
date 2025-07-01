@@ -12,3 +12,4 @@ modules:
   - https://github.com/xrobot-org/SharedTopicClient.git
   - https://github.com/xrobot-org/SharedTopic.git
   - https://github.com/xrobot-org/ST7735.git
+  - https://github.com/xrobot-org/W25QXX.git
