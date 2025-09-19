@@ -2,3 +2,4 @@ namespace: qdu-future
 modules:
   - https://github.com/QDU-Robomaster/DR16.git
   - https://github.com/QDU-Robomaster/RMMotorContainer.git
+  - https://github.com/QDU-Robomaster/CMD.git
