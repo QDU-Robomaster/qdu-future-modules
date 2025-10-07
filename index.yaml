@@ -1,5 +1,8 @@
 namespace: qdu-future
 modules:
+# 电控模块
   - https://github.com/QDU-Robomaster/DR16.git
   - https://github.com/QDU-Robomaster/Motor.git
   - https://github.com/QDU-Robomaster/CMD.git
+# 视觉模块
+  - https://github.com/QDU-Robomaster/CameraBase.git
