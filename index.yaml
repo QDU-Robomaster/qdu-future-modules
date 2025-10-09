@@ -10,3 +10,4 @@ modules:
   - https://github.com/QDU-Robomaster/HikCamera.git
   - https://github.com/QDU-Robomaster/UvcCamera.git
   - https://github.com/QDU-Robomaster/ArmorDetector.git
+  - https://github.com/QDU-Robomaster/ArmorTracker.git
