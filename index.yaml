@@ -12,3 +12,5 @@ modules:
   - https://github.com/QDU-Robomaster/ArmorDetector.git
   - https://github.com/QDU-Robomaster/ArmorTracker.git
   - https://github.com/QDU-Robomaster/RMSerialDriver.git
+# Only for Webots
+  - https://github.com/QDU-Robomaster/WebotsCamera.git
