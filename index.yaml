@@ -5,6 +5,7 @@ modules:
   - https://github.com/QDU-Robomaster/CMD.git
   - https://github.com/QDU-Robomaster/Chassis.git
   - https://github.com/QDU-Robomaster/Gimbal.git
+  - https://github.com/QDU-Robomaster/BMI088.git
 # Only for Linux
   - https://github.com/QDU-Robomaster/CameraBase.git
   - https://github.com/QDU-Robomaster/HikCamera.git
