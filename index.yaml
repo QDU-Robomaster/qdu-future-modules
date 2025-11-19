@@ -16,6 +16,7 @@ modules:
   - https://github.com/QDU-Robomaster/UvcCamera.git
   - https://github.com/QDU-Robomaster/ArmorDetector.git
   - https://github.com/QDU-Robomaster/ArmorTracker.git
+  - https://github.com/QDU-Robomaster/ParamServer.git
 # Only for Webots
   - https://github.com/QDU-Robomaster/WebotsCamera.git
   - https://github.com/QDU-Robomaster/WebotsReferee.git
