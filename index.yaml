@@ -18,6 +18,7 @@ modules:
   - https://github.com/QDU-Robomaster/ArmorTracker.git
   - https://github.com/QDU-Robomaster/ParamServer.git
   - https://github.com/QDU-Robomaster/TimeMatcher.git
+  - https://github.com/QDU-Robomaster/UartDataProcess.git
 # Only for Webots
   - https://github.com/QDU-Robomaster/WebotsCamera.git
   - https://github.com/QDU-Robomaster/WebotsReferee.git
