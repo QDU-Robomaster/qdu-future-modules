@@ -10,17 +10,19 @@ modules:
   - https://github.com/QDU-Robomaster/EventBinder.git
   - https://github.com/QDU-Robomaster/DMMotor.git
   - https://github.com/QDU-Robomaster/HostData.git
-  - https://github.com/QDU-Robomaster/AtomImuCan.git
-# Only for Linux
-  - https://github.com/QDU-Robomaster/CameraBase.git
-  - https://github.com/QDU-Robomaster/HikCamera.git
-  - https://github.com/QDU-Robomaster/UvcCamera.git
-  - https://github.com/QDU-Robomaster/ArmorDetector.git
-  - https://github.com/QDU-Robomaster/ArmorTracker.git
-# Only for Webots
-  - https://github.com/QDU-Robomaster/WebotsCamera.git
-  - https://github.com/QDU-Robomaster/WebotsReferee.git
-  - https://github.com/QDU-Robomaster/WebotsGimbal.git
-  - https://github.com/QDU-Robomaster/WebotsFireNotify.git
-# Deprecated
-  - https://github.com/QDU-Robomaster/RMSerialDriver.git
+# # Only for Linux
+#   - https://github.com/QDU-Robomaster/CameraBase.git
+#   - https://github.com/QDU-Robomaster/HikCamera.git
+#   - https://github.com/QDU-Robomaster/UvcCamera.git
+#   - https://github.com/QDU-Robomaster/ArmorDetector.git
+#   - https://github.com/QDU-Robomaster/ArmorTracker.git
+#   - https://github.com/QDU-Robomaster/ParamServer.git
+#   - https://github.com/QDU-Robomaster/TimeMatcher.git
+#   - https://github.com/QDU-Robomaster/UartDataProcess.git
+# # Only for Webots
+#   - https://github.com/QDU-Robomaster/WebotsCamera.git
+#   - https://github.com/QDU-Robomaster/WebotsReferee.git
+#   - https://github.com/QDU-Robomaster/WebotsGimbal.git
+#   - https://github.com/QDU-Robomaster/WebotsFireNotify.git
+# # Deprecated
+#   - https://github.com/QDU-Robomaster/RMSerialDriver.git
