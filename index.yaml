@@ -10,6 +10,7 @@ modules:
   - https://github.com/QDU-Robomaster/EventBinder.git
   - https://github.com/QDU-Robomaster/DMMotor.git
   - https://github.com/QDU-Robomaster/HostData.git
+  - https://github.com/QDU-Robomaster/AtomImuCan.git
 # # Only for Linux
 #   - https://github.com/QDU-Robomaster/CameraBase.git
 #   - https://github.com/QDU-Robomaster/HikCamera.git
