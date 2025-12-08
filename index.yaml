@@ -13,6 +13,8 @@ modules:
   - https://github.com/QDU-Robomaster/AtomImuCan.git
   - https://github.com/QDU-Robomaster/LegVmc.git
   - https://github.com/QDU-Robomaster/Matrix.git
+  - https://github.com/QDU-Robomaster/PowerControl.git
+  - https://github.com/QDU-Robomaster/SuperPower.git
 # # Only for Linux
 #   - https://github.com/QDU-Robomaster/CameraBase.git
 #   - https://github.com/QDU-Robomaster/HikCamera.git
