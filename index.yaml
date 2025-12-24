@@ -15,6 +15,7 @@ modules:
   - https://github.com/QDU-Robomaster/Matrix.git
   - https://github.com/QDU-Robomaster/PowerControl.git
   - https://github.com/QDU-Robomaster/SuperPower.git
+  - https://github.com/QDU-Robomaster/Wheelleg.git
   - https://github.com/QDU-Robomaster/CameraSync.git
 # # Only for Linux
 #   - https://github.com/QDU-Robomaster/CameraBase.git
