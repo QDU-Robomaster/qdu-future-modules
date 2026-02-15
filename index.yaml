@@ -18,6 +18,7 @@ modules:
   - https://github.com/QDU-Robomaster/Wheelleg.git
   - https://github.com/QDU-Robomaster/Motor.git
   - https://github.com/QDU-Robomaster/CameraSync.git
+  - https://github.com/QDU-Robomaster/DebugCore.git
 # # Only for Linux
 #   - https://github.com/QDU-Robomaster/CameraBase.git
 #   - https://github.com/QDU-Robomaster/HikCamera.git
