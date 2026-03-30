@@ -20,15 +20,18 @@ modules:
   - https://github.com/QDU-Robomaster/CameraSync.git
   - https://github.com/QDU-Robomaster/DebugCore.git
   - https://github.com/QDU-Robomaster/Referee.git
-# # Only for Linux
-#   - https://github.com/QDU-Robomaster/CameraBase.git
-#   - https://github.com/QDU-Robomaster/HikCamera.git
-#   - https://github.com/QDU-Robomaster/UvcCamera.git
-#   - https://github.com/QDU-Robomaster/ArmorDetector.git
-#   - https://github.com/QDU-Robomaster/ArmorTracker.git
-#   - https://github.com/QDU-Robomaster/ParamServer.git
-#   - https://github.com/QDU-Robomaster/TimeMatcher.git
-#   - https://github.com/QDU-Robomaster/UartDataProcess.git
+  # Only for Linux
+  - https://github.com/QDU-Robomaster/CameraBase.git
+  - https://github.com/QDU-Robomaster/HikCamera.git
+  - https://github.com/QDU-Robomaster/UvcCamera.git
+  - https://github.com/QDU-Robomaster/ArmorDetector.git
+  - https://github.com/QDU-Robomaster/ArmorTracker.git
+  - https://github.com/QDU-Robomaster/Aimer.git
+  - https://github.com/QDU-Robomaster/DemoReplay.git
+  - https://github.com/QDU-Robomaster/ReplayMetrics.git
+  - https://github.com/QDU-Robomaster/ParamServer.git
+  - https://github.com/QDU-Robomaster/TimeMatcher.git
+  - https://github.com/QDU-Robomaster/UartDataProcess.git
 # # Only for Webots
 #   - https://github.com/QDU-Robomaster/WebotsCamera.git
 #   - https://github.com/QDU-Robomaster/WebotsReferee.git
