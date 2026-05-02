@@ -31,7 +31,6 @@ modules:
   - https://github.com/QDU-Robomaster/VisionPreview.git
   - https://github.com/QDU-Robomaster/Aimer.git
   - https://github.com/QDU-Robomaster/ReplayMetrics.git
-  - https://github.com/QDU-Robomaster/ParamServer.git
   # Only for Webots
   - https://github.com/QDU-Robomaster/WebotsCamera.git
   - https://github.com/QDU-Robomaster/WebotsReferee.git
