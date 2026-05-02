@@ -11,7 +11,6 @@ modules:
   - https://github.com/QDU-Robomaster/HostData.git
   - https://github.com/QDU-Robomaster/AtomImuCan.git
   - https://github.com/QDU-Robomaster/LegVmc.git
-  - https://github.com/QDU-Robomaster/Matrix.git
   - https://github.com/QDU-Robomaster/PowerControl.git
   - https://github.com/QDU-Robomaster/SuperPower.git
   - https://github.com/QDU-Robomaster/Wheelleg.git
@@ -30,7 +29,6 @@ modules:
   - https://github.com/QDU-Robomaster/ArmorTracker.git
   - https://github.com/QDU-Robomaster/VisionPreview.git
   - https://github.com/QDU-Robomaster/Aimer.git
-  - https://github.com/QDU-Robomaster/ReplayMetrics.git
   # Only for Webots
   - https://github.com/QDU-Robomaster/WebotsCamera.git
   - https://github.com/QDU-Robomaster/WebotsReferee.git
