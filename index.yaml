@@ -20,6 +20,7 @@ modules:
   - https://github.com/QDU-Robomaster/Referee.git
   - https://github.com/QDU-Robomaster/VT13.git
   - https://github.com/QDU-Robomaster/InfantryLauncher.git
+  - https://github.com/QDU-Robomaster/SentryProtocol.git
   # Only for Linux
   - https://github.com/QDU-Robomaster/CameraBase.git
   - https://github.com/QDU-Robomaster/CameraFrameSync.git
