@@ -1,4 +1,16 @@
 namespace: qdu-future
+# Entries remain in modules so dependency resolution can fetch them. Standalone
+# build jobs must skip entries explicitly marked as non-standalone here.
+module_metadata:
+  Motor:
+    standalone: false
+    role: abstract_library
+  CameraBase:
+    standalone: false
+    role: templated_base_library
+  VisionPreview:
+    standalone: false
+    role: utility_library
 modules:
   - https://github.com/QDU-Robomaster/DR16.git
   - https://github.com/QDU-Robomaster/RMMotor.git
