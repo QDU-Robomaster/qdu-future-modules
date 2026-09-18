@@ -55,17 +55,5 @@ modules:
 #   - https://github.com/QDU-Robomaster/RMSerialDriver.git
 
 bsps:
-- id: QDU-Robomaster/bsp-dev-c
-  repo: https://github.com/QDU-Robomaster/bsp-dev-c.git
-  type: bsp
-  platform: stm32
-  mcu: STM32F407IGH6
-  build: cmake
-  status: community
-- id: QDU-Robomaster/bsp-dev-mc02
-  repo: https://github.com/QDU-Robomaster/bsp-dev-mc02.git
-  type: bsp
-  platform: stm32
-  mcu: STM32H723VGT6
-  build: cmake
-  status: community
+- https://github.com/QDU-Robomaster/bsp-dev-c.git
+- https://github.com/QDU-Robomaster/bsp-dev-mc02.git
