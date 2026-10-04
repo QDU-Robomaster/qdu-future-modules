@@ -58,3 +58,5 @@ modules:
 bsps:
 - https://github.com/QDU-Robomaster/bsp-dev-c.git
 - https://github.com/QDU-Robomaster/bsp-dev-mc02.git
+- https://github.com/QDU-Robomaster/bsp-linux-autoaim.git
+- https://github.com/QDU-Robomaster/bsp-webots-autoaim.git
