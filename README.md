@@ -38,7 +38,7 @@ Sample output:
 ```text
 $ xrobot source list --type module
 QDU-Robomaster/Aimer [module] https://github.com/QDU-Robomaster/Aimer.git
-QDU-Robomaster/Arm [module] https://github.com/QDU-Robomaster/Arm.git
+QDU-Robomaster/ArmorDetector [module] https://github.com/QDU-Robomaster/ArmorDetector.git
 ......
 ```
 
