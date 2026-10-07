@@ -11,6 +11,9 @@ module_metadata:
   VisionPreview:
     standalone: false
     role: utility_library
+  AutoAimTypes:
+    standalone: false
+    role: utility_library
 modules:
   - https://github.com/QDU-Robomaster/DR16.git
   - https://github.com/QDU-Robomaster/RMMotor.git
@@ -37,6 +40,7 @@ modules:
   - https://github.com/QDU-Robomaster/MiniGimbal.git
   - https://github.com/QDU-Robomaster/Launcher.git
   # Only for Linux
+  - https://github.com/QDU-Robomaster/AutoAimTypes.git
   - https://github.com/QDU-Robomaster/CameraBase.git
   - https://github.com/QDU-Robomaster/CameraFrameSync.git
   - https://github.com/QDU-Robomaster/CaptureFileCamera.git
@@ -44,7 +48,7 @@ modules:
   - https://github.com/QDU-Robomaster/ArmorDetector.git
   - https://github.com/QDU-Robomaster/ArmorTracker.git
   - https://github.com/QDU-Robomaster/VisionPreview.git
-  - https://github.com/QDU-Robomaster/VisionCapture.git
+  - https://github.com/QDU-Robomaster/VisionRecorder.git
   - https://github.com/QDU-Robomaster/Aimer.git
   # Only for Webots
   - https://github.com/QDU-Robomaster/WebotsCamera.git
@@ -58,4 +62,5 @@ bsps:
 - https://github.com/QDU-Robomaster/bsp-dev-c.git
 - https://github.com/QDU-Robomaster/bsp-dev-mc02.git
 - https://github.com/QDU-Robomaster/bsp-linux-autoaim.git
+- https://github.com/QDU-Robomaster/bsp-linux-autoaim-replay.git
 - https://github.com/QDU-Robomaster/bsp-webots-autoaim.git

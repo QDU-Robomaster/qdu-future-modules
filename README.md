@@ -46,11 +46,11 @@ QDU-Robomaster/ArmorDetector [module] https://github.com/QDU-Robomaster/ArmorDet
 
 `modules` 列表同时包含可实例化的模块和只被其他模块依赖的基础库。基础库不能从列表中删除，否则依赖解析会失败。
 
-基础库在自己的主头文件 manifest 中写 `standalone: false`（当前为 `Motor`、`CameraBase`、`VisionPreview`）：它们不能在应用配置中实例化，模块 CI 只编译其源码。`xrobot` 以 manifest 为准，不读取 `index.yaml` 中的 `module_metadata`。
+基础库在自己的主头文件 manifest 中写 `standalone: false`（当前为 `Motor`、`CameraBase`、`VisionPreview`、`AutoAimTypes`）：它们不能在应用配置中实例化，模块 CI 只编译其源码。`xrobot` 以 manifest 为准，不读取 `index.yaml` 中的 `module_metadata`。
 
 `modules` contains both instantiable Modules and base libraries that only other Modules depend on. The base libraries stay in the list; dependency resolution fails without them.
 
-A base library writes `standalone: false` in the manifest of its primary header (currently `Motor`, `CameraBase` and `VisionPreview`): it cannot be instantiated in an application configuration, and Module CI only compiles its sources. `xrobot` follows the manifest and does not read `module_metadata` in `index.yaml`.
+A base library writes `standalone: false` in the manifest of its primary header (currently `Motor`, `CameraBase`, `VisionPreview` and `AutoAimTypes`): it cannot be instantiated in an application configuration, and Module CI only compiles its sources. `xrobot` follows the manifest and does not read `module_metadata` in `index.yaml`.
 
 ## 添加模块 / Adding a Module
 
